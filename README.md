@@ -114,7 +114,27 @@ git clone https://github.com/somkheartk/flutter-workshop-2day.git
 cd flutter-workshop-2day
 ```
 
-2. ไปยังเนื้อหาวันที่ต้องการเรียน:
+2. ดูตัวอย่างโค้ดที่พร้อมรัน:
+```bash
+# ดูรายการตัวอย่างทั้งหมด
+cat EXAMPLES.md
+
+# หรือเปิดไฟล์ EXAMPLES.md เพื่อดูรายละเอียดทั้งหมด
+```
+
+3. รันตัวอย่างโค้ด:
+```bash
+# ตัวอย่าง: รัน Hello Flutter (Session 1)
+cd day1/session1/example
+flutter pub get
+flutter run
+
+# ตัวอย่าง: รัน Dart basics (Session 2)
+cd day1/session2/examples
+dart 01_variables.dart
+```
+
+4. เรียนรู้จากเอกสารในแต่ละ session:
 ```bash
 # วันที่ 1
 cd day1
@@ -123,7 +143,23 @@ cd day1
 cd day2
 ```
 
-3. ทำตามขั้นตอนในแต่ละ session
+## 📱 ตัวอย่างโค้ดพร้อมรัน (Runnable Examples)
+
+ทุกบทเรียนมีตัวอย่างโค้ดที่พร้อมรันทันที! ดูรายละเอียดเพิ่มเติมใน [EXAMPLES.md](./EXAMPLES.md)
+
+**Day 1:**
+- ✅ [Hello Flutter App](./day1/session1/example/) - Counter app พื้นฐาน
+- ✅ [Dart Basics](./day1/session2/examples/) - ตัวอย่าง Dart 4 ไฟล์
+- ✅ [Widgets Demo](./day1/session3/example/) - แสดง Widgets ต่างๆ
+- ✅ [Counter App](./day1/session4/examples/counter_app/) - แอปนับเลขแบบเต็ม
+- ✅ [Profile Card](./day1/session4/examples/profile_card/) - โปรไฟล์การ์ดแบบ Interactive
+- ✅ [Todo List](./day1/session4/examples/todo_list/) - แอปจัดการรายการสิ่งที่ต้องทำ
+
+**Day 2:**
+- ✅ [Shopping Cart (Provider)](./day2/session1/example/) - ตะกร้าสินค้าด้วย Provider
+- ✅ [Navigation Demo](./day2/session2/example/) - การนำทางหลายหน้า
+- ✅ [API Integration](./day2/session3/example/) - เชื่อมต่อ REST API
+- ✅ [Testing Example](./day2/session4/example/) - Unit tests และ Widget tests
 
 ## 💡 Tips for Success
 
