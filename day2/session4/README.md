@@ -561,7 +561,7 @@ flutter pub get
 **Apple App Store:**
 1. [ ] Developer account active ($99/year)
 2. [ ] App created in App Store Connect
-3. [ ] Build uploaded via Xcode/Transporter
+3. [ ] Build uploaded via Xcode or Transporter app (Apple's upload tool)
 4. [ ] Store listing completed
    - Name (max 30 chars)
    - Subtitle (max 30 chars)
