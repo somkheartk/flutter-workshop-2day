@@ -21,7 +21,7 @@ Download from: https://docs.flutter.dev/get-started/install/windows
 ### Linux
 ```bash
 git clone https://github.com/flutter/flutter.git
-export PATH="$PATH:`pwd`/flutter/bin"
+export PATH="$PATH:$(pwd)/flutter/bin"
 ```
 
 ## ✅ Step 2: Verify Installation
@@ -46,11 +46,17 @@ open -a Simulator
 
 ## 🎓 Step 4: Start Learning
 
-### Clone This Repository
+### Access Workshop Materials
+
+**Option 1: Clone this repository**
 ```bash
 git clone https://github.com/somkheartk/flutter-workshop-2day.git
 cd flutter-workshop-2day
 ```
+
+**Option 2: Fork and clone your own copy**
+1. Click "Fork" button on GitHub
+2. Clone your fork: `git clone https://github.com/YOUR_USERNAME/flutter-workshop-2day.git`
 
 ### Follow the Curriculum
 
