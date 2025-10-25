@@ -50,37 +50,37 @@
 
 ---
 
-## 📝 Blogs & Articles
+## 📝 Blogs & Articles / บล็อกและบทความ
 
-### Official Blogs
+### Official Blogs / บล็อกทางการ
 - [Flutter Medium Publication](https://medium.com/flutter)
 - [Flutter Community Medium](https://medium.com/flutter-community)
 - [Dart Blog](https://medium.com/dartlang)
 
-### Popular Blogs
+### Popular Blogs / บล็อกยอดนิยม
 - [Flutter Awesome](https://flutterawesome.com/)
 - [It's All Widgets!](https://itsallwidgets.com/)
 - [Flutter Institute](https://flutter.institute/)
 
 ---
 
-## 💻 Interactive Learning
+## 💻 Interactive Learning / การเรียนรู้แบบโต้ตอบ
 
-### Practice Platforms
-- [DartPad](https://dartpad.dev/) - Run Dart code online
-- [Zapp!](https://zapp.run/) - Run Flutter apps in browser
-- [Flutter Gallery](https://gallery.flutter.dev/) - Widget examples
+### Practice Platforms / แพลตฟอร์มฝึกฝน
+- [DartPad](https://dartpad.dev/) - Run Dart code online / รัน Dart code ออนไลน์
+- [Zapp!](https://zapp.run/) - Run Flutter apps in browser / รันแอป Flutter ในเบราว์เซอร์
+- [Flutter Gallery](https://gallery.flutter.dev/) - Widget examples / ตัวอย่างวิดเจ็ต
 
-### Code Labs
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Building layouts](https://docs.flutter.dev/codelabs/layout-basics)
-- [Firebase for Flutter](https://firebase.google.com/codelabs/firebase-get-to-know-flutter)
+### Code Labs / แลปเขียนโค้ด
+- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab) - เขียนแอป Flutter แรกของคุณ
+- [Building layouts](https://docs.flutter.dev/codelabs/layout-basics) - สร้างเลย์เอาต์
+- [Firebase for Flutter](https://firebase.google.com/codelabs/firebase-get-to-know-flutter) - Firebase สำหรับ Flutter
 
 ---
 
-## 📚 Books
+## 📚 Books / หนังสือ
 
-### Recommended Books
+### Recommended Books / หนังสือแนะนำ
 - **Beginning Flutter** by Marco L. Napoli
 - **Flutter Complete Reference** by Alberto Miola
 - **Flutter for Beginners** by Alessandro Biessek
@@ -89,64 +89,64 @@
 
 ---
 
-## 🛠️ Tools & Resources
+## 🛠️ Tools & Resources / เครื่องมือและทรัพยากร
 
-### Development Tools
-- [Flutter DevTools](https://docs.flutter.dev/development/tools/devtools/overview)
-- [Flutter Inspector](https://docs.flutter.dev/development/tools/devtools/inspector)
-- [Flutter Studio](https://flutterstudio.app/) - Visual layout builder
+### Development Tools / เครื่องมือพัฒนา
+- [Flutter DevTools](https://docs.flutter.dev/development/tools/devtools/overview) - เครื่องมือพัฒนา Flutter
+- [Flutter Inspector](https://docs.flutter.dev/development/tools/devtools/inspector) - ตัวตรวจสอบ Flutter
+- [Flutter Studio](https://flutterstudio.app/) - Visual layout builder / ตัวสร้างเลย์เอาต์แบบภาพ
 
-### Design Resources
-- [Material Design](https://material.io/)
-- [Cupertino (iOS) Design](https://developer.apple.com/design/human-interface-guidelines/)
-- [Flutter Icons](https://api.flutter.dev/flutter/material/Icons-class.html)
-- [Unsplash](https://unsplash.com/) - Free images
+### Design Resources / ทรัพยากรการออกแบบ
+- [Material Design](https://material.io/) - การออกแบบ Material
+- [Cupertino (iOS) Design](https://developer.apple.com/design/human-interface-guidelines/) - การออกแบบ iOS
+- [Flutter Icons](https://api.flutter.dev/flutter/material/Icons-class.html) - ไอคอน Flutter
+- [Unsplash](https://unsplash.com/) - Free images / รูปภาพฟรี
 
-### API Testing
-- [JSONPlaceholder](https://jsonplaceholder.typicode.com/) - Fake REST API
-- [Public APIs](https://github.com/public-apis/public-apis) - List of free APIs
-- [Postman](https://www.postman.com/) - API testing tool
+### API Testing / การทดสอบ API
+- [JSONPlaceholder](https://jsonplaceholder.typicode.com/) - Fake REST API / REST API จำลอง
+- [Public APIs](https://github.com/public-apis/public-apis) - List of free APIs / รายการ API ฟรี
+- [Postman](https://www.postman.com/) - API testing tool / เครื่องมือทดสอบ API
 
 ---
 
-## 👥 Community
+## 👥 Community / ชุมชน
 
-### Forums & Discussion
+### Forums & Discussion / ฟอรัมและการสนทนา
 - [Flutter Community Slack](https://fluttercommunity.dev/)
 - [Reddit - r/FlutterDev](https://www.reddit.com/r/FlutterDev/)
 - [Stack Overflow - Flutter Tag](https://stackoverflow.com/questions/tagged/flutter)
 - [Flutter Discord](https://discord.gg/N7Yshp4)
 
-### Social Media
+### Social Media / โซเชียลมีเดีย
 - [Flutter Twitter](https://twitter.com/FlutterDev)
 - [Flutter LinkedIn](https://www.linkedin.com/showcase/flutter/)
 
 ---
 
-## 🎨 UI/UX Inspiration
+## 🎨 UI/UX Inspiration / แรงบันดาลใจ UI/UX
 
-### App Showcases
+### App Showcases / การแสดงแอป
 - [It's All Widgets!](https://itsallwidgets.com/)
 - [Flutter Showcase](https://flutter.dev/showcase)
 - [Made with Flutter](https://madewithflutter.net/)
 
-### Design Inspiration
+### Design Inspiration / แรงบันดาลใจการออกแบบ
 - [Dribbble - Flutter](https://dribbble.com/tags/flutter)
 - [Behance - Flutter](https://www.behance.net/search/projects?search=flutter)
 - [UI8 - Flutter Templates](https://ui8.net/category/flutter-templates)
 
 ---
 
-## 🔧 Development Resources
+## 🔧 Development Resources / ทรัพยากรการพัฒนา
 
-### Package Repository
-- [Pub.dev](https://pub.dev/) - Official package repository
-- [Flutter Favorites](https://pub.dev/flutter-favorites)
+### Package Repository / คลังแพ็คเกจ
+- [Pub.dev](https://pub.dev/) - Official package repository / คลังแพ็คเกจทางการ
+- [Flutter Favorites](https://pub.dev/flutter-favorites) - แพ็คเกจโปรด Flutter
 
-### GitHub Resources
+### GitHub Resources / ทรัพยากร GitHub
 - [Awesome Flutter](https://github.com/Solido/awesome-flutter)
-- [Flutter Samples](https://github.com/flutter/samples)
-- [Flutter Examples](https://github.com/iampawan/FlutterExampleApps)
+- [Flutter Samples](https://github.com/flutter/samples) - ตัวอย่าง Flutter
+- [Flutter Examples](https://github.com/iampawan/FlutterExampleApps) - ตัวอย่างแอป Flutter
 
 ---
 
@@ -216,41 +216,43 @@
 
 ## 🔔 Stay Updated
 
-### Release Notes
-- [Flutter Release Notes](https://docs.flutter.dev/development/tools/sdk/release-notes)
-- [Flutter What's New](https://flutter.dev/docs/whats-new)
+### Release Notes / บันทึกการเผยแพร่
+- [Flutter Release Notes](https://docs.flutter.dev/development/tools/sdk/release-notes) - บันทึกการเผยแพร่ Flutter
+- [Flutter What's New](https://flutter.dev/docs/whats-new) - มีอะไรใหม่ใน Flutter
 
-### Newsletters
-- [Flutter Weekly](https://flutterweekly.net/)
-- [Flutter Digest](https://flutter-digest.com/)
-
----
-
-## 🌟 Thai Resources (ภาษาไทย)
-
-### Communities
-- [Flutter Thailand Facebook Group](https://www.facebook.com/groups/flutterthailand/)
-- [Flutter Thailand Discord](https://discord.gg/flutterthailand)
-
-### Thai Tutorials
-- Search for "Flutter Tutorial ภาษาไทย" on YouTube
-- Thai Flutter developers on Medium
+### Newsletters / จดหมายข่าว
+- [Flutter Weekly](https://flutterweekly.net/) - Flutter รายสัปดาห์
+- [Flutter Digest](https://flutter-digest.com/) - สรุปข่าว Flutter
 
 ---
 
-## 📞 Need Help?
+## 🌟 Thai Resources (ภาษาไทย) / แหล่งข้อมูลภาษาไทย
 
-When stuck:
-1. Check official documentation first
-2. Search Stack Overflow
-3. Ask in Flutter communities
-4. Review GitHub issues for similar problems
-5. Check package documentation on pub.dev
+### Communities / ชุมชน
+- [Flutter Thailand Facebook Group](https://www.facebook.com/groups/flutterthailand/) - กลุ่ม Facebook Flutter ประเทศไทย
+- [Flutter Thailand Discord](https://discord.gg/flutterthailand) - Discord Flutter ประเทศไทย
+
+### Thai Tutorials / บทเรียนภาษาไทย
+- Search for "Flutter Tutorial ภาษาไทย" on YouTube / ค้นหา "Flutter Tutorial ภาษาไทย" บน YouTube
+- Thai Flutter developers on Medium / นักพัฒนา Flutter คนไทยบน Medium
+
+---
+
+## 📞 Need Help? / ต้องการความช่วยเหลือ?
+
+When stuck / เมื่อติดปัญหา:
+1. Check official documentation first / ตรวจสอบเอกสารทางการก่อน
+2. Search Stack Overflow / ค้นหาใน Stack Overflow
+3. Ask in Flutter communities / ถามในชุมชน Flutter
+4. Review GitHub issues for similar problems / ดู issues ใน GitHub สำหรับปัญหาที่คล้ายกัน
+5. Check package documentation on pub.dev / ตรวจสอบเอกสารแพ็คเกจบน pub.dev
 
 ---
 
 **Happy Learning! Keep coding and building amazing Flutter apps! 🚀**
 
+**สนุกกับการเรียนรู้! เขียนโค้ดและสร้างแอป Flutter สุดเจ๋งต่อไป! 🚀**
+
 ---
 
-[← Back to Main](../README.md)
+[← Back to Main / กลับไปหน้าหลัก](../README.md)
