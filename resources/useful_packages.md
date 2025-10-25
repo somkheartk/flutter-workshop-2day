@@ -1,13 +1,14 @@
 # Useful Flutter Packages
+# แพ็คเกจ Flutter ที่มีประโยชน์
 
-## 📦 Popular and Recommended Packages
+## 📦 Popular and Recommended Packages / แพ็คเกจยอดนิยมและแนะนำ
 
 ---
 
-## 🌐 Networking & API
+## 🌐 Networking & API / เครือข่ายและ API
 
 ### http
-**Purpose**: Make HTTP requests
+**Purpose / วัตถุประสงค์**: Make HTTP requests / ทำคำขอ HTTP
 ```yaml
 http: ^1.1.0
 ```
@@ -18,64 +19,64 @@ final response = await http.get(Uri.parse('https://api.example.com/data'));
 ```
 
 ### dio
-**Purpose**: Advanced HTTP client with interceptors
+**Purpose / วัตถุประสงค์**: Advanced HTTP client with interceptors / HTTP client ขั้นสูงพร้อม interceptors
 ```yaml
 dio: ^5.3.0
 ```
 
 ---
 
-## 🗃️ State Management
+## 🗃️ State Management / การจัดการ State
 
 ### provider
-**Purpose**: Simple and recommended state management
+**Purpose / วัตถุประสงค์**: Simple and recommended state management / การจัดการ state ที่เรียบง่ายและแนะนำ
 ```yaml
 provider: ^6.0.0
 ```
 
 ### riverpod
-**Purpose**: Next-generation Provider
+**Purpose / วัตถุประสงค์**: Next-generation Provider / Provider รุ่นใหม่
 ```yaml
 flutter_riverpod: ^2.4.0
 ```
 
 ### bloc
-**Purpose**: Business Logic Component pattern
+**Purpose / วัตถุประสงค์**: Business Logic Component pattern / รูปแบบ Business Logic Component
 ```yaml
 flutter_bloc: ^8.1.0
 ```
 
 ### get
-**Purpose**: All-in-one solution (state, routing, dependency injection)
+**Purpose / วัตถุประสงค์**: All-in-one solution (state, routing, dependency injection) / โซลูชันครบวงจร (state, routing, dependency injection)
 ```yaml
 get: ^4.6.0
 ```
 
 ---
 
-## 💾 Local Storage & Database
+## 💾 Local Storage & Database / การจัดเก็บข้อมูลและฐานข้อมูลในเครื่อง
 
 ### shared_preferences
-**Purpose**: Simple key-value storage
+**Purpose / วัตถุประสงค์**: Simple key-value storage / การจัดเก็บแบบคีย์-ค่าง่ายๆ
 ```yaml
 shared_preferences: ^2.2.0
 ```
 
 ### hive
-**Purpose**: Fast NoSQL database
+**Purpose / วัตถุประสงค์**: Fast NoSQL database / ฐานข้อมูล NoSQL ที่รวดเร็ว
 ```yaml
 hive: ^2.2.3
 hive_flutter: ^1.1.0
 ```
 
 ### sqflite
-**Purpose**: SQLite database
+**Purpose / วัตถุประสงค์**: SQLite database / ฐานข้อมูล SQLite
 ```yaml
 sqflite: ^2.3.0
 ```
 
 ### isar
-**Purpose**: Fast, cross-platform database
+**Purpose / วัตถุประสงค์**: Fast, cross-platform database / ฐานข้อมูลข้ามแพลตฟอร์มที่รวดเร็ว
 ```yaml
 isar: ^3.1.0
 isar_flutter_libs: ^3.1.0
@@ -83,10 +84,10 @@ isar_flutter_libs: ^3.1.0
 
 ---
 
-## 🎨 UI & Widgets
+## 🎨 UI & Widgets / UI และวิดเจ็ต
 
 ### google_fonts
-**Purpose**: Use any Google Font
+**Purpose / วัตถุประสงค์**: Use any Google Font / ใช้ฟอนต์ Google ใดก็ได้
 ```yaml
 google_fonts: ^6.1.0
 ```
@@ -95,57 +96,57 @@ Text('Hello', style: GoogleFonts.roboto(fontSize: 20))
 ```
 
 ### flutter_svg
-**Purpose**: Display SVG images
+**Purpose / วัตถุประสงค์**: Display SVG images / แสดงรูปภาพ SVG
 ```yaml
 flutter_svg: ^2.0.0
 ```
 
 ### cached_network_image
-**Purpose**: Cache and display network images
+**Purpose / วัตถุประสงค์**: Cache and display network images / แคชและแสดงรูปภาพจากเครือข่าย
 ```yaml
 cached_network_image: ^3.3.0
 ```
 
 ### lottie
-**Purpose**: Beautiful animations from JSON
+**Purpose / วัตถุประสงค์**: Beautiful animations from JSON / แอนิเมชันสวยงามจาก JSON
 ```yaml
 lottie: ^2.7.0
 ```
 
 ### shimmer
-**Purpose**: Loading shimmer effect
+**Purpose / วัตถุประสงค์**: Loading shimmer effect / เอฟเฟกต์ shimmer ขณะโหลด
 ```yaml
 shimmer: ^3.0.0
 ```
 
 ---
 
-## 🧭 Navigation & Routing
+## 🧭 Navigation & Routing / การนำทางและเส้นทาง
 
 ### go_router
-**Purpose**: Declarative routing
+**Purpose / วัตถุประสงค์**: Declarative routing / การกำหนดเส้นทางแบบประกาศ
 ```yaml
 go_router: ^12.0.0
 ```
 
 ### auto_route
-**Purpose**: Code generation for routing
+**Purpose / วัตถุประสงค์**: Code generation for routing / สร้างโค้ดสำหรับการกำหนดเส้นทาง
 ```yaml
 auto_route: ^7.8.0
 ```
 
 ---
 
-## 🔐 Authentication & Security
+## 🔐 Authentication & Security / การยืนยันตัวตนและความปลอดภัย
 
 ### firebase_auth
-**Purpose**: Firebase authentication
+**Purpose / วัตถุประสงค์**: Firebase authentication / การยืนยันตัวตนด้วย Firebase
 ```yaml
 firebase_auth: ^4.12.0
 ```
 
 ### flutter_secure_storage
-**Purpose**: Secure storage for sensitive data
+**Purpose / วัตถุประสงค์**: Secure storage for sensitive data / การจัดเก็บข้อมูลที่ละเอียดอ่อนอย่างปลอดภัย
 ```yaml
 flutter_secure_storage: ^9.0.0
 ```

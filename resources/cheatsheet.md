@@ -1,31 +1,32 @@
 # Flutter Cheat Sheet
+# คู่มืออ้างอิงฉบับย่อ Flutter
 
-## 📚 Quick Reference Guide
+## 📚 Quick Reference Guide / คู่มืออ้างอิงอย่างรวดเร็ว
 
 ---
 
-## Basic Widgets
+## Basic Widgets / วิดเจ็ตพื้นฐาน
 
-### Text
+### Text / ข้อความ
 ```dart
 Text('Hello')
 Text('Styled', style: TextStyle(fontSize: 20, color: Colors.blue))
 ```
 
-### Image
+### Image / รูปภาพ
 ```dart
 Image.network('url')
 Image.asset('assets/image.png')
 ```
 
-### Button
+### Button / ปุ่ม
 ```dart
 ElevatedButton(onPressed: () {}, child: Text('Click'))
 TextButton(onPressed: () {}, child: Text('Click'))
 IconButton(icon: Icon(Icons.add), onPressed: () {})
 ```
 
-### Container
+### Container / คอนเทนเนอร์
 ```dart
 Container(
   width: 100,
@@ -37,9 +38,9 @@ Container(
 
 ---
 
-## Layout Widgets
+## Layout Widgets / วิดเจ็ตเลย์เอาต์
 
-### Column (Vertical)
+### Column (Vertical) / คอลัมน์ (แนวตั้ง)
 ```dart
 Column(
   children: [
@@ -49,7 +50,7 @@ Column(
 )
 ```
 
-### Row (Horizontal)
+### Row (Horizontal) / แถว (แนวนอน)
 ```dart
 Row(
   children: [
@@ -59,7 +60,7 @@ Row(
 )
 ```
 
-### ListView
+### ListView / รายการแบบเลื่อนได้
 ```dart
 ListView(
   children: [
@@ -69,7 +70,7 @@ ListView(
 )
 ```
 
-### Stack (Overlay)
+### Stack (Overlay) / สแต็ก (วางซ้อนกัน)
 ```dart
 Stack(
   children: [
@@ -81,9 +82,9 @@ Stack(
 
 ---
 
-## Navigation
+## Navigation / การนำทาง
 
-### Push (Go to new screen)
+### Push (Go to new screen) / ไปยังหน้าจอใหม่
 ```dart
 Navigator.push(
   context,
@@ -91,14 +92,14 @@ Navigator.push(
 );
 ```
 
-### Pop (Go back)
+### Pop (Go back) / กลับหน้าจอก่อนหน้า
 ```dart
 Navigator.pop(context);
 ```
 
-### Named Routes
+### Named Routes / เส้นทางที่มีชื่อ
 ```dart
-// Define in MaterialApp
+// Define in MaterialApp / กำหนดใน MaterialApp
 MaterialApp(
   routes: {
     '/': (context) => HomePage(),
@@ -106,15 +107,15 @@ MaterialApp(
   },
 )
 
-// Navigate
+// Navigate / นำทาง
 Navigator.pushNamed(context, '/second');
 ```
 
 ---
 
-## State Management
+## State Management / การจัดการ State
 
-### setState
+### setState / การตั้งค่า State
 ```dart
 class _MyWidgetState extends State<MyWidget> {
   int counter = 0;
@@ -127,9 +128,9 @@ class _MyWidgetState extends State<MyWidget> {
 }
 ```
 
-### Provider
+### Provider / ตัวจัดการ State แบบ Provider
 ```dart
-// Create a ChangeNotifier
+// Create a ChangeNotifier / สร้าง ChangeNotifier
 class Counter extends ChangeNotifier {
   int _count = 0;
   int get count => _count;
@@ -140,28 +141,28 @@ class Counter extends ChangeNotifier {
   }
 }
 
-// Provide
+// Provide / จัดเตรียม
 ChangeNotifierProvider(
   create: (context) => Counter(),
   child: MyApp(),
 )
 
-// Consume
+// Consume / ใช้งาน
 Consumer<Counter>(
   builder: (context, counter, child) {
     return Text('${counter.count}');
   },
 )
 
-// Or use Provider.of
+// Or use Provider.of / หรือใช้ Provider.of
 final counter = Provider.of<Counter>(context);
 ```
 
 ---
 
-## Async Operations
+## Async Operations / การทำงานแบบอะซิงโครนัส
 
-### Future
+### Future / ฟิวเจอร์
 ```dart
 Future<String> fetchData() async {
   await Future.delayed(Duration(seconds: 2));
@@ -174,7 +175,7 @@ void loadData() async {
 }
 ```
 
-### FutureBuilder
+### FutureBuilder / ตัวสร้างจาก Future
 ```dart
 FutureBuilder<String>(
   future: fetchData(),
@@ -191,7 +192,7 @@ FutureBuilder<String>(
 
 ---
 
-## HTTP Requests
+## HTTP Requests / คำขอ HTTP
 
 ```dart
 import 'package:http/http.dart' as http;
@@ -221,9 +222,9 @@ Future<void> sendData() async {
 
 ---
 
-## Common Patterns
+## Common Patterns / รูปแบบทั่วไป
 
-### Scaffold Structure
+### Scaffold Structure / โครงสร้าง Scaffold
 ```dart
 Scaffold(
   appBar: AppBar(title: Text('Title')),
@@ -242,7 +243,7 @@ Scaffold(
 )
 ```
 
-### Form with Validation
+### Form with Validation / ฟอร์มพร้อมการตรวจสอบ
 ```dart
 final _formKey = GlobalKey<FormState>();
 
@@ -261,7 +262,7 @@ Form(
       ElevatedButton(
         onPressed: () {
           if (_formKey.currentState!.validate()) {
-            // Process data
+            // Process data / ประมวลผลข้อมูล
           }
         },
         child: Text('Submit'),
@@ -273,9 +274,9 @@ Form(
 
 ---
 
-## Styling
+## Styling / การจัดรูปแบบ
 
-### Theme
+### Theme / ธีม
 ```dart
 MaterialApp(
   theme: ThemeData(
@@ -352,44 +353,44 @@ flutter pub get
 
 ---
 
-## Useful Packages
+## Useful Packages / แพ็คเกจที่มีประโยชน์
 
-### Common Packages
+### Common Packages / แพ็คเกจทั่วไป
 ```yaml
 dependencies:
-  # HTTP requests
+  # HTTP requests / คำขอ HTTP
   http: ^1.1.0
   
-  # State management
+  # State management / การจัดการ State
   provider: ^6.0.0
   
-  # Local storage
+  # Local storage / การจัดเก็บข้อมูลในเครื่อง
   shared_preferences: ^2.2.0
   
-  # JSON serialization
+  # JSON serialization / การแปลง JSON
   json_annotation: ^4.8.0
   
-  # Icons
+  # Icons / ไอคอน
   font_awesome_flutter: ^10.5.0
   
-  # Images
+  # Images / รูปภาพ
   cached_network_image: ^3.3.0
   
-  # Navigation
+  # Navigation / การนำทาง
   go_router: ^12.0.0
 ```
 
 ---
 
-## Debugging
+## Debugging / การแก้ไขข้อบกพร่อง
 
-### Print Statements
+### Print Statements / คำสั่งพิมพ์
 ```dart
 print('Debug: $variable');
 debugPrint('Debug message');
 ```
 
-### Debug Paint
+### Debug Paint / การแสดงขอบเขต
 ```dart
 MaterialApp(
   debugShowCheckedModeBanner: false,
@@ -397,22 +398,24 @@ MaterialApp(
 )
 ```
 
-### Flutter Inspector
-- Open in VS Code or Android Studio
-- Inspect widget tree
-- View layout constraints
+### Flutter Inspector / ตัวตรวจสอบ Flutter
+- Open in VS Code or Android Studio / เปิดใน VS Code หรือ Android Studio
+- Inspect widget tree / ตรวจสอบโครงสร้างวิดเจ็ต
+- View layout constraints / ดูข้อจำกัดของเลย์เอาต์
 
 ---
 
-## Tips
+## Tips / เคล็ดลับ
 
-- Use `const` constructors when possible for better performance
-- Use `ListView.builder` for long lists
-- Avoid deep widget trees
-- Use `keys` for stateful widgets in lists
-- Always handle errors in async operations
-- Test on real devices, not just emulators
+- Use `const` constructors when possible for better performance / ใช้ `const` constructors เพื่อประสิทธิภาพที่ดีขึ้น
+- Use `ListView.builder` for long lists / ใช้ `ListView.builder` สำหรับรายการยาว
+- Avoid deep widget trees / หลีกเลี่ยงโครงสร้างวิดเจ็ตที่ลึกเกินไป
+- Use `keys` for stateful widgets in lists / ใช้ `keys` สำหรับ stateful widgets ในรายการ
+- Always handle errors in async operations / จัดการข้อผิดพลาดใน async operations เสมอ
+- Test on real devices, not just emulators / ทดสอบบนอุปกรณ์จริง ไม่ใช่แค่ emulators
 
 ---
 
 **Keep this cheat sheet handy while coding!** 🚀
+
+**เก็บคู่มือฉบับย่อนี้ไว้ใกล้มือขณะเขียนโค้ด!** 🚀
