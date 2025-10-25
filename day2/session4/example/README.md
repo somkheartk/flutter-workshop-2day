@@ -30,7 +30,7 @@ This example teaches you:
    - Widget Presence: Verifying UI elements exist
 
 ### Test Coverage
-- ✅ 30+ test cases
+- ✅ 28 test cases (20 unit + 8 widget tests)
 - ✅ Edge cases (zero, negative, empty)
 - ✅ Error handling (division by zero)
 - ✅ State management
@@ -53,7 +53,7 @@ flutter test
 
 Expected output:
 ```
-00:02 +30: All tests passed!
+00:02 +28: All tests passed!
 ```
 
 **2. Run specific test file:**
@@ -112,7 +112,7 @@ The app displays a simple counter with:
 00:01 +1: Calculator Tests subtraction works correctly
 00:01 +2: Calculator Tests multiplication works correctly
 ...
-00:02 +30: All tests passed!
+00:02 +28: All tests passed!
 ```
 
 **What This Means:**
