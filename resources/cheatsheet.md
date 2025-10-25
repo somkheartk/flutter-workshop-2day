@@ -1,31 +1,32 @@
 # Flutter Cheat Sheet
+# คู่มืออ้างอิงฉบับย่อ Flutter
 
-## 📚 Quick Reference Guide
+## 📚 Quick Reference Guide / คู่มืออ้างอิงอย่างรวดเร็ว
 
 ---
 
-## Basic Widgets
+## Basic Widgets / วิดเจ็ตพื้นฐาน
 
-### Text
+### Text / ข้อความ
 ```dart
 Text('Hello')
 Text('Styled', style: TextStyle(fontSize: 20, color: Colors.blue))
 ```
 
-### Image
+### Image / รูปภาพ
 ```dart
 Image.network('url')
 Image.asset('assets/image.png')
 ```
 
-### Button
+### Button / ปุ่ม
 ```dart
 ElevatedButton(onPressed: () {}, child: Text('Click'))
 TextButton(onPressed: () {}, child: Text('Click'))
 IconButton(icon: Icon(Icons.add), onPressed: () {})
 ```
 
-### Container
+### Container / คอนเทนเนอร์
 ```dart
 Container(
   width: 100,
@@ -37,9 +38,9 @@ Container(
 
 ---
 
-## Layout Widgets
+## Layout Widgets / วิดเจ็ตเลย์เอาต์
 
-### Column (Vertical)
+### Column (Vertical) / คอลัมน์ (แนวตั้ง)
 ```dart
 Column(
   children: [
@@ -49,7 +50,7 @@ Column(
 )
 ```
 
-### Row (Horizontal)
+### Row (Horizontal) / แถว (แนวนอน)
 ```dart
 Row(
   children: [
@@ -59,7 +60,7 @@ Row(
 )
 ```
 
-### ListView
+### ListView / รายการแบบเลื่อนได้
 ```dart
 ListView(
   children: [
@@ -69,7 +70,7 @@ ListView(
 )
 ```
 
-### Stack (Overlay)
+### Stack (Overlay) / สแต็ก (วางซ้อนกัน)
 ```dart
 Stack(
   children: [
@@ -81,9 +82,9 @@ Stack(
 
 ---
 
-## Navigation
+## Navigation / การนำทาง
 
-### Push (Go to new screen)
+### Push (Go to new screen) / ไปยังหน้าจอใหม่
 ```dart
 Navigator.push(
   context,
@@ -91,14 +92,14 @@ Navigator.push(
 );
 ```
 
-### Pop (Go back)
+### Pop (Go back) / กลับหน้าจอก่อนหน้า
 ```dart
 Navigator.pop(context);
 ```
 
-### Named Routes
+### Named Routes / เส้นทางที่มีชื่อ
 ```dart
-// Define in MaterialApp
+// Define in MaterialApp / กำหนดใน MaterialApp
 MaterialApp(
   routes: {
     '/': (context) => HomePage(),
@@ -106,15 +107,15 @@ MaterialApp(
   },
 )
 
-// Navigate
+// Navigate / นำทาง
 Navigator.pushNamed(context, '/second');
 ```
 
 ---
 
-## State Management
+## State Management / การจัดการ State
 
-### setState
+### setState / การตั้งค่า State
 ```dart
 class _MyWidgetState extends State<MyWidget> {
   int counter = 0;

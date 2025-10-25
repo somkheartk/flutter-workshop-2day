@@ -1,32 +1,33 @@
 # Learning Resources & References
+# แหล่งข้อมูลและเอกสารอ้างอิงการเรียนรู้
 
-## 📚 Official Documentation
+## 📚 Official Documentation / เอกสารทางการ
 
 ### Flutter
-- [Flutter Official Documentation](https://docs.flutter.dev/)
-- [Flutter Widget Catalog](https://docs.flutter.dev/development/ui/widgets)
-- [Flutter Cookbook](https://docs.flutter.dev/cookbook)
-- [Flutter API Reference](https://api.flutter.dev/)
+- [Flutter Official Documentation](https://docs.flutter.dev/) - เอกสารทางการของ Flutter
+- [Flutter Widget Catalog](https://docs.flutter.dev/development/ui/widgets) - แค็ตตาล็อกวิดเจ็ต Flutter
+- [Flutter Cookbook](https://docs.flutter.dev/cookbook) - สูตรอาหาร Flutter
+- [Flutter API Reference](https://api.flutter.dev/) - เอกสารอ้างอิง API Flutter
 
 ### Dart
-- [Dart Language Tour](https://dart.dev/guides/language/language-tour)
-- [Dart API Documentation](https://api.dart.dev/)
-- [Effective Dart](https://dart.dev/guides/language/effective-dart)
-- [DartPad](https://dartpad.dev/) - Online Dart editor
+- [Dart Language Tour](https://dart.dev/guides/language/language-tour) - ทัวร์ภาษา Dart
+- [Dart API Documentation](https://api.dart.dev/) - เอกสาร API Dart
+- [Effective Dart](https://dart.dev/guides/language/effective-dart) - Dart ที่มีประสิทธิภาพ
+- [DartPad](https://dartpad.dev/) - Online Dart editor / เครื่องมือแก้ไข Dart ออนไลน์
 
 ---
 
-## 🎥 Video Tutorials
+## 🎥 Video Tutorials / บทเรียนวิดีโอ
 
-### YouTube Channels
+### YouTube Channels / ช่อง YouTube
 
-**Flutter Official**
-- [Flutter YouTube Channel](https://www.youtube.com/c/flutterdev)
-- Widget of the Week series
-- Flutter in Focus series
-- Flutter Engage events
+**Flutter Official / Flutter ทางการ**
+- [Flutter YouTube Channel](https://www.youtube.com/c/flutterdev) - ช่อง YouTube Flutter
+- Widget of the Week series / ซีรีส์วิดเจ็ตแห่งสัปดาห์
+- Flutter in Focus series / ซีรีส์ Flutter in Focus
+- Flutter Engage events / งานอีเวนต์ Flutter Engage
 
-**Popular Flutter Creators**
+**Popular Flutter Creators / ครีเอเตอร์ Flutter ยอดนิยม**
 - [The Net Ninja - Flutter Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ)
 - [Academind - Flutter Course](https://www.youtube.com/c/Academind)
 - [Reso Coder](https://www.youtube.com/c/ResoCoder)
@@ -35,14 +36,14 @@
 
 ---
 
-## 📖 Online Courses
+## 📖 Online Courses / คอร์สออนไลน์
 
-### Free Courses
+### Free Courses / คอร์สฟรี
 - [Flutter Codelabs](https://docs.flutter.dev/codelabs)
 - [Google Developers Training](https://developers.google.com/learn/pathways/intro-to-flutter)
 - [freeCodeCamp Flutter Course](https://www.youtube.com/watch?v=VPvVD8t02U8)
 
-### Paid Courses
+### Paid Courses / คอร์สเสียค่าใช้จ่าย
 - [Udemy - Flutter & Dart Complete Guide](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/)
 - [Coursera - Flutter Development](https://www.coursera.org/learn/flutter-development)
 - [Pluralsight - Flutter Courses](https://www.pluralsight.com/search?q=flutter)

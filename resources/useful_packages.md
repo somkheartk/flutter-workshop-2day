@@ -1,13 +1,14 @@
 # Useful Flutter Packages
+# แพ็คเกจ Flutter ที่มีประโยชน์
 
-## 📦 Popular and Recommended Packages
+## 📦 Popular and Recommended Packages / แพ็คเกจยอดนิยมและแนะนำ
 
 ---
 
-## 🌐 Networking & API
+## 🌐 Networking & API / เครือข่ายและ API
 
 ### http
-**Purpose**: Make HTTP requests
+**Purpose / วัตถุประสงค์**: Make HTTP requests / ทำคำขอ HTTP
 ```yaml
 http: ^1.1.0
 ```
@@ -18,35 +19,35 @@ final response = await http.get(Uri.parse('https://api.example.com/data'));
 ```
 
 ### dio
-**Purpose**: Advanced HTTP client with interceptors
+**Purpose / วัตถุประสงค์**: Advanced HTTP client with interceptors / HTTP client ขั้นสูงพร้อม interceptors
 ```yaml
 dio: ^5.3.0
 ```
 
 ---
 
-## 🗃️ State Management
+## 🗃️ State Management / การจัดการ State
 
 ### provider
-**Purpose**: Simple and recommended state management
+**Purpose / วัตถุประสงค์**: Simple and recommended state management / การจัดการ state ที่เรียบง่ายและแนะนำ
 ```yaml
 provider: ^6.0.0
 ```
 
 ### riverpod
-**Purpose**: Next-generation Provider
+**Purpose / วัตถุประสงค์**: Next-generation Provider / Provider รุ่นใหม่
 ```yaml
 flutter_riverpod: ^2.4.0
 ```
 
 ### bloc
-**Purpose**: Business Logic Component pattern
+**Purpose / วัตถุประสงค์**: Business Logic Component pattern / รูปแบบ Business Logic Component
 ```yaml
 flutter_bloc: ^8.1.0
 ```
 
 ### get
-**Purpose**: All-in-one solution (state, routing, dependency injection)
+**Purpose / วัตถุประสงค์**: All-in-one solution (state, routing, dependency injection) / โซลูชันครบวงจร (state, routing, dependency injection)
 ```yaml
 get: ^4.6.0
 ```
