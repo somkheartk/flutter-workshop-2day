@@ -395,7 +395,7 @@ floatingActionButton: Column(
       onPressed: _decrementCounter,
       child: const Icon(Icons.remove),
     ),
-    SizedBox(height: 10),
+    const SizedBox(height: 10),
     FloatingActionButton(
       onPressed: _incrementCounter,
       child: const Icon(Icons.add),
@@ -411,7 +411,7 @@ Text(
   _counter < 5 ? 'นับได้ดี' :
   _counter < 10 ? 'เก่งมาก' :
   'คุณกดปุ่มเยอะจัง!',
-  style: TextStyle(fontSize: 18, color: Colors.grey),
+  style: const TextStyle(fontSize: 18, color: Colors.grey),
 )
 ```
 
